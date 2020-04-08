@@ -1,0 +1,9 @@
+url: "ldd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/roguelike-corner-blog" # the subpath of your site, e.g. /blog
+title: "Roguelike Quite Corner" # the name of your site, e.g. ACME Corp.
+author: "ldd"
+sass:
+  style: compressed
+# repository: ldd/roguelike-quite-corner-blog.github.io
+# github: [metadata]
+github_issues_repository: "ldd/roguelike-corner-blog"

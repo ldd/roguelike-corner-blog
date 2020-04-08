@@ -1,0 +1,18 @@
+<div class="blog-header">
+  <div class="hero hero-sm bg-dark">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{{ '/' | relative_url }}">Home</a>
+      </li>
+      {% if page.url != "/" %}
+      <li class="breadcrumb-item">
+        <a href="{{ page.url | relative_url }}">{{page.title}}</a>
+      </li>
+      {% endif %}
+    </ul>
+    <div class="hero-body">
+      <h1 class="text-center">{{ site.title }}</h1>
+      <p class="text-center">Tutorials & Tips Blog</p>
+    </div>
+  </div>
+</div>
